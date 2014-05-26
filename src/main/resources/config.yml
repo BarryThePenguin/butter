@@ -1,0 +1,4 @@
+twitter:
+    token: accessToken
+    secret: accessTokenSecret
+playerHandles: {}

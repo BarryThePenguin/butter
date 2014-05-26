@@ -1,0 +1,15 @@
+name: Butter
+main: org.beqz.butter.Butter
+version: 1.0-SNAPSHOT
+commands:
+   butter:
+      description: Primary command for Butter.
+      usage:
+        - <command> register [handle] - register users handle with server
+        - <command> auth - authenticates plugin with twitter account
+permissions:
+    butter.register:
+        description: Ability to register Twitter account with Player account, using /butter register
+    butter.auth:
+        description: Ability to authenticate with a Twitter account, using /butter auth
+        default: op

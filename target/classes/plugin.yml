@@ -1,0 +1,16 @@
+name: Twittit
+main: org.beqz.Twittit.Twittit
+version: 1.0-SNAPSHOT
+commands:
+   twittit:
+      description: Primary command for Twittit.
+      usage:
+        - <command> register [handle] - register users handle with server
+        - <command> auth [username] [password] - authenticates plugin with twitter account
+permissions:
+    twittit.register:
+        description: Ability to register Twitter account with Player account, using /twittit register
+        default: default
+    twittit.auth:
+            description: Ability to authenticate with a Twitter account, using /twittit auth
+            default: op
